@@ -3,7 +3,7 @@ import importlib
 import sys
 from os.path import basename, dirname, isfile
 
-from Sriasih import MOD_LOAD, MOD_NOLOAD
+from ArabManage import MOD_LOAD, MOD_NOLOAD
 
 
 def __list_all_modules():
