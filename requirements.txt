@@ -29,7 +29,6 @@ cinemagoer
 httpx[http2]
 httpcore==0.14
 emoji
-git+https://github.com/yasirarism/pyrofork
 tgcrypto
 async_pymongo
 pymongo
