@@ -4,8 +4,8 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Sriasih import BOT_ID, SUDOERS
-from Sriasih.core.sections import bold, section, w
+from ArabManage import BOT_ID, SUDOERS
+from ArabManage.core.sections import bold, section, w
 
 tasks = {}
 TASKS_LOCK = Lock()
