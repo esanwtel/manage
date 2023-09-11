@@ -24,9 +24,9 @@ SOFTWARE.
 from pyrogram import filters as filters_
 from pyrogram.types import Message
 
-from Sriasih import SUDOERS
-from Sriasih import USERBOT_ID as OWNER_ID
-from Sriasih.utils.functions import get_urls_from_text
+from ArabManage import SUDOERS
+from ArabManage import USERBOT_ID as OWNER_ID
+from ArabManage.utils.functions import get_urls_from_text
 
 
 def url(_, __, message: Message) -> bool:
