@@ -1,1 +1,1 @@
-worker: python3 -m Sriasih
+worker: python3 -m Arab
