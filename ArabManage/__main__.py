@@ -251,7 +251,7 @@ General command are:
 
 @app.on_message(filters.command("donate"))
 async def donate(_, message):
-    f message.chat.type != enums.ChatType.PRIVATE:
+    message.chat.type != enums.ChatType.PRIVATE:
         return await message.reply_photo(
             photo="https://telegra.ph/qris-08-08-3",
             caption="Hai {first_name}, jika kamu merasa bot ini berguna kamu bisa melakukan donasi dengan scan QR menggunakan merchant yang support QRIS ya. Karena server bot ini menggunakan VPS dan tidaklah gratis. Terimakasih..\n\nDevs : @Dhilnihnge",
